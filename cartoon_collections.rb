@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(source_array)
   result = false 
   source_array.map do |word|
-    if word.length >= 4
+    if word.length > 4
       result = true
       puts word
       puts result
