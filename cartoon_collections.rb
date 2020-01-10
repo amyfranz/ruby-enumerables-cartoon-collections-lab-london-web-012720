@@ -13,7 +13,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(source_array)
-  result = false 
+  result = false
+  puts result
   source_array.map do |word|
     if word.length > 4
       result = true
