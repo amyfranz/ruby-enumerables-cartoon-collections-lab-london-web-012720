@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
     item.capitalize!
     item[item.length] = "!"
   end
-  puts planeteer_calls
+  return planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
