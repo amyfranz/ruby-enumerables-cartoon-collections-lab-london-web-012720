@@ -7,7 +7,6 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |item|
     item = "#{item.capitalize!}"
-    item.splice("!")
   end
   puts planeteer_calls
 end
