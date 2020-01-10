@@ -25,6 +25,6 @@ end
 def find_the_cheese (source)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = nil
-  cheese_types.map do |cheese|
-    source.include
+  source.map do |item|
+    cheese_types.include?
 end
