@@ -24,5 +24,6 @@ end
 
 def find_the_cheese (source)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  result = nil 
   
 end
