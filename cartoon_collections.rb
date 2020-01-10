@@ -29,6 +29,7 @@ def find_the_cheese (source)
     result = cheese_types.include?(item)
     if result == true
       return result
+    end
   end
   return result
 end
